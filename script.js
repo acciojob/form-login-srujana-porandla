@@ -1,4 +1,4 @@
-function getFormvalue() {
+function getFormvalue(event) {
 	event.preventDefault();
     //Write your code here
 	let form=document.getElementByID("form1");
